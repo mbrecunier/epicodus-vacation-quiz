@@ -1,6 +1,7 @@
 # Vacation Quiz
 
-#### Epicodus Code Review 2; 1.15.16
+#### Epicodus Code Review 2
+### 1.15.16
 
 #### By Michelle Brecunier
 
