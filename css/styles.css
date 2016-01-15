@@ -1,21 +1,30 @@
 body {
-  background-color: #E4FBFF;
+  background-color: #A8DBE4;
   color: #132A3E;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#quiz, .destinations {
-  background-color: #F7FDFF;
+#quiz, .destinations, #footer {
+  background-color: #D7F2F7;
   padding: 8px;
-  border: 1px solid #999;
+  border: 1px solid #4C94A1;
   border-radius: 5px;
+  margin-bottom: 10px;
 }
 
-.page-header {
-  background-color: #C9EBFF;
+#footer {
+  margin: 16px;
+  text-align: center;
+}
+
+.jumbotron {
+  background-color: #78BBC8;
+  color: #F7F7F7;
   padding: 20px;
   text-align: center;
-  border: 1px solid #999;
+  border: 2px solid #4C94A1;
   border-radius: 5px;
+  height: 10%;
 }
 
 .destinations img {
