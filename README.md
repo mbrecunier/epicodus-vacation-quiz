@@ -7,7 +7,7 @@
 
 ## Description
 
-The user will answer questions about themselves on a form and the site will return a suggestion for a vacation based on their answers. There are three possible vacations.
+The user will answer questions about themselves on a form and the site will return a suggestion for a vacation based on their answers. There are four possible vacations.
 
 ## Setup/Installation Requirements
 
