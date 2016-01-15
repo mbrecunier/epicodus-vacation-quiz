@@ -15,6 +15,8 @@ $(document).ready(function() {
     var thailand = 0;
     var whistler = 0;
 
+    var vacations = [iceland, thailand, whistler];
+
 //create functions to validate quiz, run quiz, and determine/show result
     var radioButtons = $('.form-group');
 
@@ -36,18 +38,22 @@ $(document).ready(function() {
         } else {
           whistler++;
         }
-        resultReturn();
       })
+      resultReturn();
     };
 
     var resultReturn = function() {
+
       $('.destinations').children().hide();
+
       if ((iceland > thailand) && (iceland > whistler)) {
         $('#iceland').show();
       } else if ((thailand > iceland) && (thailand > whistler)) {
         $('#thailand').show();
-      } else {
+      } else if ((whistler > thailand) && (whistler > thailand)) {
         $('#whistler').show();
+      } else {
+        $('#home').show();
       }
     };
 
@@ -60,10 +66,10 @@ $(document).ready(function() {
     } else {
       $('form#quiz').prepend('<h4 class="error">Oops! Please answer all of the questions</h4>')
       return false;
-    }
-
+    };
 
     event.preventDefault();
+
   });
 
 });
