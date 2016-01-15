@@ -6,3 +6,7 @@
 .destinations div {
   display: none;
 }
+
+.error {
+  color: red;
+}
