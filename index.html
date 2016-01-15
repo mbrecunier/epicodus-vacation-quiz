@@ -14,6 +14,7 @@
         <h1>Vacation Quiz</h1>
       </div>
       <div class="row">
+        <!-- quiz -->
         <div class="col-sm-6">
           <form id="quiz">
             <div class="form-group">
@@ -22,7 +23,6 @@
                 <label>
                   <input type="radio" name="climate" value="whistler">
                   Anywhere I can make a snow angel
-                  </input>
                 </label>
               </div>
               <div class="radio">
@@ -45,7 +45,6 @@
                 <label>
                   <input type="radio" name="activity" value="thailand">
                   No, I prefer to stay relaxed
-                  </input>
                 </label>
               </div>
               <div class="radio">
@@ -68,7 +67,6 @@
                 <label>
                   <input type="radio" name="beauty" value="iceland">
                   Colors, oceans, caves, mountains... I love it all!
-                  </input>
                 </label>
               </div>
               <div class="radio">
@@ -91,7 +89,6 @@
                 <label>
                   <input type="radio" name="price" value="thailand">
                   I want to get the most out of each USD
-                  </input>
                 </label>
               </div>
               <div class="radio">
@@ -114,7 +111,6 @@
                 <label>
                   <input type="radio" name="friends" value="whistler">
                   I'll obviously be too busy to take pictures
-                  </input>
                 </label>
               </div>
               <div class="radio">
@@ -134,10 +130,10 @@
             <button type="submit" class="btn btn-primary">Take me there!</button>
           </form>
         </div>
-
+        <!-- results -->
         <div class="col-sm-6">
           <div class="destinations">
-            <h3>What will it be?</h3>
+            <h3>You should...</h3>
             <div id="iceland">
               <h3>Fly over to Iceland!</h3>
               <img src="img/iceland.jpg" alt="picture of iceland" class="center-block">
@@ -159,7 +155,7 @@
               </ul>
             </div>
             <div id="whistler">
-              <h3>Ready to hit the slopes at Whistler?</h3>
+              <h3>Hit the slopes in Whistler!</h3>
               <img src="img/whistler.jpg" alt="picture of mountain" class="center-block">
               <p>You already know where you want to go. Forget the spas and relaxation. You want to put on your three warmest jackets and spend your days zooming down the mountain until you can't feel your legs.</p>
               <ul>
@@ -169,7 +165,7 @@
               </ul>
             </div>
             <div id="home">
-              <h3>You should probably just stay home and avoid disappointment...</h3>
+              <h3>Just stay home and avoid disappointment...</h3>
               <img src="img/home.jpg" alt="picture of couch" class="center-block">
               <p>Are your expectations too high? It sounds like you want too many things different things and we recommend just forgetting the vacation. It is better to be disappointed at home than to be disappointed and thousands of dollars poorer in another country.</p>
               <ul>
@@ -181,13 +177,12 @@
           </div>
         </div>
       </div>
-
+      <!-- footer -->
       <div class="row">
         <div id="footer">
           <p>View the <a href="https://github.com/mbrecunier/epicodus-vacation-quiz.git">github repository</a> for this project</p>
         </div>
       </div>
-
     </div>
   </body>
 </html>

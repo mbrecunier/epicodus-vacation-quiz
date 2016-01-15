@@ -43,7 +43,6 @@ $(document).ready(function() {
     };
 
     var resultReturn = function() {
-
       $('.destinations').children().hide();
 
       if ((iceland > thailand) && (iceland > whistler)) {
@@ -55,6 +54,9 @@ $(document).ready(function() {
       } else {
         $('#home').show();
       }
+      //Tried used Math.max method to return highest variable in vacations array and show the corresponding content. This probably didn't work because the array is variables rather than numeric values
+      //
+
     };
 
 
