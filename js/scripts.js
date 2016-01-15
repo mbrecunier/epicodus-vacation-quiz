@@ -54,7 +54,7 @@ $(document).ready(function() {
       } else {
         $('#home').show();
       }
-      //Tried used Math.max method to return highest variable in vacations array and show the corresponding content. This probably didn't work because the array is variables rather than numeric values
+      //Tried used Math.max method to return highest variable in vacations array and show the corresponding content. This probably didn't work because the array is variables rather than numeric values. There must be a better way to write this.
       //
 
     };
@@ -66,7 +66,7 @@ $(document).ready(function() {
     if (quizValidation()) {
       runQuiz();
     } else {
-      $('form#quiz').prepend('<h4 class="error">Oops! Please answer all of the questions</h4>')
+      $('.error').show();
       return false;
     };
 
