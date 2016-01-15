@@ -1,0 +1,8 @@
+.destinations img {
+  max-width: 90%;
+  height: auto;
+}
+
+.destinations div {
+  display: none;
+}
