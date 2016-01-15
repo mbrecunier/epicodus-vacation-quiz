@@ -1,10 +1,37 @@
+body {
+  background-color: #E4FBFF;
+  color: #132A3E;
+}
+
+#quiz, .destinations {
+  background-color: #F7FDFF;
+  padding: 8px;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.page-header {
+  background-color: #C9EBFF;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
 .destinations img {
   max-width: 90%;
   height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
 }
 
 .destinations div {
   display: none;
+}
+
+.destinations h3 {
+  text-align: center;
 }
 
 .error {
