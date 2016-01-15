@@ -9,6 +9,146 @@
     <title>Vacation Quiz</title>
   </head>
   <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Vacation Quiz</h1>
+        <h3>Find your next trip idea</h3>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <form>
+            <div class="form-group">
+              <label for="climate">Which climate do you prefer?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="climate" value="whistler">
+                  Anywhere I can make a snow angel
+                  </input>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="climate" value="thailand">
+                  Send me to the beach!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="climate" value="iceland">
+                  I'm not too picky
+                </label>
+              </div>
+            </div>
 
+            <div class="form-group">
+              <label for="activity">Do you enjoy strenuous activities?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="activity" value="thailand">
+                  No, I prefer to stay relaxed
+                  </input>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="activity" value="iceland">
+                  I like to mix it up between high energy and low energy activities
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="activity" value="whistler">
+                  What is the point of a vacation if you aren't working out?
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="beauty">What is the most beautiful to you?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="beauty" value="iceland">
+                  Colors, oceans, caves, mountains... I love it all!
+                  </input>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="beauty" value="whistler">
+                  High peaks and endless sky
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="beauty" value="thailand">
+                  Sandy beaches and crystal clear waters
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="price">How much money are you looking to spend?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="price" value="thailand">
+                  I want to get the most out of each USD
+                  </input>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="price" value="whistler">
+                  All I need to pay for is lodging- I'll be bringing my own entertainment
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="price" value="iceland">
+                  I don't mind paying more to get the most varied vacation experience
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="friends">What pictures do you want to send back to your friends?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="friends" value="whistler">
+                  I'll obviously be too busy to take pictures
+                  </input>
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="friends" value="iceland">
+                  Gorgeous landscapes
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="friends" value="thailand">
+                  Me in the sun
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary" name="button">Take me there!</button>
+          </form>
+        </div>
+
+        <div class="col-sm-6 destinations">
+          <div id="iceland">
+            <img src="img/iceland.jpg" alt="picture of iceland">
+          </div>
+          <div id="thailand">
+            <img src="img/thailand.jpg" alt="picture of thailand">
+          </div>
+          <div id="whistler">
+            <img src="img/whistler.jpg">
+          </div>
+
+        </div>
+      </div>
+    </div>
   </body>
 </html>
