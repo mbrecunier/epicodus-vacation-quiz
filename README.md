@@ -14,6 +14,11 @@ The user will answer questions about themselves on a form and the site will retu
 * Clone repository
 * Open in browser
 
+--or--
+
+* View on [GitHub Pages] (http://mbrecunier.github.io/epicodus-vacation-quiz/)
+
+
 ## Known Bugs
 
 No known bugs
